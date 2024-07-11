@@ -2,7 +2,7 @@ import Location from "../../icons/Location";
 function Card(props) {
   const { id, model, year, distance, location, price, image } = props;
   return (
-    <div className={"p-2 min-h-[300px] shadow-slate-400 rounded-sm shadow-sm"}>
+   <div className={"p-2 min-h-[300px] shadow-slate-400 rounded-sm shadow-sm"}>
       <div className={"w-60 flex flex-col gap-4"}>
         <figure className="w-full">
           <img src={image} className="rounded" />

@@ -3,7 +3,7 @@ import { useState } from "react";
 import emptyAnim from "@/components/animation/empty.json";
 import carsData from "@/data/carsData";
 import Cars from "@/components/templates/Cars";
-import GoBackBtn from "@/components/modules/btns/gobackbtn";
+import GoBackBtn from "@/components/modules/btns/GoBackBtn";
 import Lottie from "lottie-react";
 
 function SecondPrice() {

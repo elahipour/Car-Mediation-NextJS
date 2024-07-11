@@ -1,6 +1,6 @@
 function Road() {
   return (
-    <svg width="20px" height="20px" viewBox="0 0 24 24">
+    <svg width="17px" height="17px" viewBox="0 0 24 24">
       <title>road_line</title>
       <g
         id="页面-1"

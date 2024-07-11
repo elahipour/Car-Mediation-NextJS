@@ -1,12 +1,13 @@
+import Link from "next/link"
 import Card from "../modules/card/Card"
 
 function Cars({data}) {
   return (
-    <div className={"w-full grid place-items-center"}>
-    <div className={'grid place-items-center grid-cols-4 gap-4 w-fit'}>
+    <div className={"w-[800px] flex justify-center"}>
+    <div className={'flex flex-wrap justify-between gap-4 w-fit'}>
         {
             data.map(car=>{
-                return <Card key={car.id} {...car}/>
+                return <Link key={car.id} href={`/cars/${car.category}/${car.id}`}><Card {...car}/></Link>
             })
         }
     </div>
